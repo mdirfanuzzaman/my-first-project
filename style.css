@@ -9,12 +9,15 @@
 
 .hero{
     width: 100%;
+    position: relative;
 }
 
 .container{
     width: 80%;
     padding: 0 5px;
     margin: 0 auto;
+    
+
 }
 .col-1{
     width: 50%;
@@ -115,6 +118,14 @@
     margin-top: 30px;
     width: 100%;
 }
+.circle-1 img{
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    left: 85px;
+    top: 170px;
+    z-index: -1;
+}
 .dev-col-1{
     width: 35%;
     height: 400px;
@@ -204,4 +215,119 @@
     width: 100%;
     
 }
+.circle-2 img{
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    right: 85px;
+    top: 475px;
+    left: 1570px;
+    z-index: -1;
+}
+.blog{
+    width: 100%;    
+}
+.blog h1{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 60px;    
+}
+.blog span{    
+    font-size: 60px; 
+    color: #FFAD5A;
+    font-family: 'Poppins', sans-serif;
+}
 
+.blog-1{
+    width: 45%;
+    float: left;
+    
+}
+.blog-box img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 160px;
+    z-index: -1;
+}
+.blog-box-1 img{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    left: 600px;
+    bottom: 20px;
+    z-index: -1;
+}
+.blog-box-2 img{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    left: 215px;
+    top: 885px;
+    z-index: -1;
+}
+
+
+
+
+.blog-1 img{
+    width: 100%;
+    width: 500px;
+}
+
+.blog-2{
+    width: auto;
+}
+
+.blog-2 h1, span {
+    padding-top: 250px;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 100px;
+}
+
+.blog-2 span{
+    color: #FFAD5A;
+}
+.blog-2 p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 25px;
+}
+.blog-2 .btn{
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 40px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #FF5959;
+    border-radius: 5px;
+}
+
+footer{
+    margin-top: 250px;
+    width: 100%;
+    height: 200px;
+    background: #0B0D17;
+}
+
+footer h1{
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    text-align: center;
+}
+
+footer span{
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+}
+footer p{
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+}
